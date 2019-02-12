@@ -1,0 +1,16 @@
+{
+  "jest": {
+    "runner": "jest-runner-phpunit",
+    "displayName": "phpunit",
+    "moduleFileExtensions": [
+      "php"
+    ],
+    "testMatch": [
+      "<rootDir>/tests/**/*Test.php"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-runner-phpunit": "^0.0.6"
+  }
+}
